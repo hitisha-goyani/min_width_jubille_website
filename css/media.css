@@ -16,6 +16,9 @@
 .w-8{
     width:80%;
 }
+.w-6{
+    width:60%;
+}
 @media(min-width:576px){
     .w-sm-1{
         width:100%;

@@ -2,34 +2,34 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: "poppins";
 }
 /*---------------------------------------container classes start--------------------------------- */
 .container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     max-width:1320px;
     margin: auto;
 }
 .container-fluid{
     width:100%;
     margin:auto;                                                                    auto;
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
 
 }
 /* -----------------------------------------text classes start------------------------------------------------------------------------- */
 
-.t-white{
-    color:white;
-}
-.t-black{
-    color:black;
-}
 .t-center{
     text-align:center;
 }
-.f-30{
-    font-size:30px;
+ul{
+    list-style: none;
 }
- /* -----------------------------------------text classes end------------------------------------------------------------------------- */
+.gap{
+    gap: 6%;
+}
+
+
+
 
 
  /* -----------------------------------------flex classes start------------------------------------------------------------------------- */
@@ -41,21 +41,26 @@
  .justify-center{
     justify-content: center !important;
  }
+ .align-center{
+    align-items: center!important;
+ }
+ .justify-end{
+    justify-content: end;
+ }
+ 
  .row{
     display:flex;
-    /* justify-content: start; */
     flex-wrap: wrap;
     width:100%;
  }
- /* -----------------------------------------flex classes end------------------------------------------------------------------------- */
+ 
 
 /* ------------------------------------------- border classes start------------------------------------------------------------------ */
 .shadow{
     box-shadow:1px 1px 4px black;
 }
-.radius-10{
-    border-radius: 10px;
-}
+
+
 /* -----------------------------------------border classes start------------------------------------------------------------------------- */
 .border-red{
     border:1px solid red;
@@ -74,11 +79,24 @@
     border:1px solid gray;
 }
 .border-black{
-    border:1px sollid black;
+    border:1px solid black;
+}
+.b-none{
+    border:none;
+}
+.b-bottom{
+    border-bottom: 1px solid white;
+
 }
 /* -----------------------------------------height classes start------------------------------------------------------------------------- */
 .h-50{
     height:50px;
+}
+.h-55{
+    height:55px;
+}
+.h-60{
+    height:60px;
 }
 .h-100{
     height:100px;
@@ -92,19 +110,174 @@
 .h-400{
     height:400px;
 }
-/* ------------------padding classs */
+.h{
+    height:100%;
+}
+
+/* ------------------padding classs--------------- */
 .p-10{
     padding:10px;
+}
+.p-20{
+    padding:20px;
+}
+.p-right-20{
+    padding-right: 20px;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+.p-left-10{
+    padding-left: 20px;
+}
+
+.p-t-b-10{
+    padding:10px 10px;
 }
 .m-60{
     margin-top: 60px;
 }
-.shadow{
-    box-shadow:1px 1px 4px black;
+.p-300{
+    padding: 100px;
 }
+
+
+/* ------------------border radius class------------------------- */
 .radius-10{
     border-radius: 10px;
 }
 .radius-20{
     border-radius: 20px;
 }
+.radius-60{
+    border-radius: 60px;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-50{
+    border-radius: 50%;
+}
+/* -----------------------width section css------------------- */
+.w-100{
+    width:100%;
+}
+.w-70{
+    width:70%;
+}
+.w-200{
+    width:200px;
+}
+.w-250{
+    width:250px;
+}
+/* ------------------color class ------------------------*/
+.color-red{
+    color:rgb(236 108 90);
+}
+.color-green{
+    color:#4CC082;
+}
+.color-white{
+    color:white;
+}
+.color-gray{
+    color:#6c757d
+}
+.color-yellow{
+    color:#f8be60;
+}
+
+/* ----------------------font class-------- -------------------------*/
+.f-weight-600{
+    font-weight:600;
+}
+
+.font-20{
+    font-size: 20px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-30{
+    font-size:30px;
+}
+.font-40{
+    font-size:40px;
+}
+.font-45{
+    font-size: 45px;
+}
+/* ----------------------------bg class------------------------------ */
+.bg-green{
+    background-color:#4CC082;
+}
+
+.bg-lightgreen{
+    background-color: #E2F3F0;
+}
+.bg-lightgray{
+    background-color: #e0e5eb;
+}
+.bg-lightyellow{
+    background-color:#FFEED3;
+}
+.bg-lightred{
+    background-color: #FFE9E5;
+}
+.b-red{
+    background-color: rgb(236 108 90);
+}
+/* ------------hover class--------- */
+.bg-lightgreen:hover{
+    background-color:#4CC082;
+    color:white;
+    transition: all 0.5s;
+}
+
+.bg-lightgreen:hover .cw{
+    color:white !important;
+    transition: all 0.5s;
+}
+.bg-lightgray:hover{
+    background-color: #31333A;
+    color: white;
+    transition: all 0.5s;
+}
+
+.bg-lightgray:hover .cw{
+    color:white !important;
+    transition: all 0.5s;
+}
+.bg-lightyellow:hover{
+    background-color:#f8be60;
+    color: white;
+    transition: all 0.5s;
+}
+
+.bg-lightyellow:hover .cw{
+    color:white !important;
+    transition: all 0.5s;
+}
+
+.bg-lightred:hover{
+    background-color: #EC6C5A;
+    color:white;
+    transition: all 0.5s;
+}
+
+.bg-lightred:hover .cw{
+    color:white !important;
+    transition: all 0.5s;
+}
+.bg{
+    background: url('../imgs/bg.png');
+}
+
+  
+   
+
+
+   /* ---------animation class */
+   
