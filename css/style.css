@@ -41,7 +41,10 @@ ul{
     display:flex;
  }
 
- .justify-center{
+ .justify-between{
+    justify-content: space-between;
+ }
+  .justify-center{
     justify-content: center !important;
  }
  .align-center{
@@ -49,6 +52,12 @@ ul{
  }
  .justify-end{
     justify-content: end!important;
+ }
+ .align-self{
+    align-self: center;
+ }
+ .align-end{
+    align-items:end;
  }
  
  .row{
@@ -124,7 +133,9 @@ ul{
 }
 
 /* ------------------padding classs--------------- */
-
+.p-5{
+    padding:5px;
+}
 .p-10{
     padding:10px;
 }
@@ -251,6 +262,9 @@ ul{
 .w-70{
     width:70%;
 }
+.width-70{
+    width:70px;
+}
 .w-200{
     width:200px;
 }
@@ -258,7 +272,7 @@ ul{
     width:250px;
 }
 .w-50{
-    width:4%;
+    width:50px;
 }
 .w-20{
     width:40px;
@@ -361,6 +375,9 @@ ul{
 .b-red{
     background-color: rgb(236 108 90);
 }
+.bg-lightblue{
+    background-color: #E2F3F0;
+}
 .b-lightyellow{
     background-color:#FFEED3;
 }
@@ -425,34 +442,59 @@ ul{
 }
 
 /* position css class */
-.position-relative{
-    position: relative;
-    bottom:3px;
-
-}
 .position-absolute{
-    position: absolute;
-    transform: translateX(-70px);
-  
-  
+    transform: translateX(-70px);   
 
 }
+.icons{
+    position: absolute;
+    flex-direction: column;
+}
+
+.icons i{
+
+    font-size: 25px;
+    color: white;
+    background-color: #4CC082;
+    /* border: 1px solid white;*/
+    transform: rotateY(-90deg);
+    transform-origin: 0% -50%;
+    overflow: hidden;
+    /* transition: all 0.5s;  */
+}
+.icons i:first-child{
+    transition: all 0.4s;
+}
+.icons i:nth-child(2){
+    transition: all 0.4s 0.3s;
+}
+.icons i:nth-child(3){
+    transition: all 0.4s 0.6s;
+}
+.icons i:last-child{
+    transition: all 0.4s 0.9s;
+}
+
+.img-hover:hover .icons i{
+    transform: rotateY(0deg);
+    }
+
+
 .position-relative-img{
     position: relative;
-    bottom: 10px;
-
-
+   
 }
 .position-absolute-btn{
     position: absolute;
-    transform: translateX(-270px);
-  
-  
-
-}
-  
+    top:10px;
+    left:10px;
    
-
+}
+.slick-dots li button:before {
+    font-size: 40px !important;
+    color: #4CC082 !important;
+    
+}
 
    /* ---------animation class */
    
