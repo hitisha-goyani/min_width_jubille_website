@@ -29,12 +29,12 @@
     <!---------------------------------------header section------------------------------------------------------ -->
 
     <header>
-        <div class="container d-flex ">
+        <div class="container-fluid d-flex  d-wrap  d-lg-nowrap d-lg-justify">
             <div class="w-5">
                 <img class="p-20" src="imgs/logo.png">
             </div>
             <div class="w-6">
-                <div class="items p-20">
+                <div class="d-none d-lg-flex p-20  p-right-20">
                     <ul class="d-flex gap f-weight-600 ">
                         <li class="color-green">HOME</li>
                         <div class="dropdown">
@@ -70,21 +70,38 @@
                             <li>EVENT DETAILS</li>
                         </ul>
                         </div>
-                        <li>BLOG</li>
+                        <div class="dropdown">
+                        <li>BLOG<i class="ri-arrow-down-s-fill"></i></li>
+                        <ul class="dropdown-menu">
+                            <li>BLOG</li>
+                            <li>SINGLE POST</li>
+                            </ul>
+                            </div>
+                            <div class="dropdown">
+                        <li>SHOP<i class="ri-arrow-down-s-fill"></i></li>
+                        <ul class="dropdown-menu nav-width">
                         <li>SHOP</li>
+                        <li>SINGLE PRODUCT</li>
+                        </ul>
+                        </div>
                         <li>CONTACT</li>
-                    </ul>
+                 </ul>
+                   
                 </div>
-
             </div>
-            <div class="w-5 d-flex gap font-20 p-20 justify-end">
+            <div class="btn-hide p-10" >
+                <button class="bg-white border-gray p-5 radius-10 w-50"> <i class="ri-menu-line f-weight-400 font-30"></i></button>
+            </div>
+           
+            <div class="w-1 w-sm-5 border-red d-flex gap font-20 p-20 justify-end">
                 <i class="ri-account-circle-line"></i>
                 <i class="ri-heart-line"></i>
                 <i class="ri-shopping-bag-line"></i>
                 <i class="ri-search-line"></i>
             </div>
-
+           
         </div>
+
     </header>
     <!-- -----------------------------------------------------------master your skill section--------------------------------------------------------- -->
     <section class="bg">
@@ -112,7 +129,7 @@
                 <div class="w-1 w-sm-1  w-md-2  w-lg-2">
                     <div class="w-1   redius-10 ">
                         <div class="radius-10 ">
-                            <img class="p-top-60" src="imgs/1.jpg">
+                            <img class="p-top-60 w-1" src="imgs/1.jpg">
                         </div>
                     </div>
                 </div>
@@ -186,7 +203,7 @@
                 <div class="w-1 w-sm-1  w-md-2  w-lg-2 ">
                     <div class="w-1  redius-10 p-10">
                         <div class="radius-10  d-flex justify-center align-center">
-                            <img class="w-70 radius-50 " src="imgs/about-img.jpg">
+                            <img class="w-1 radius-50 " src="imgs/about-img.jpg">
                         </div>
                     </div>
                 </div>
@@ -811,7 +828,7 @@
 
 
 
-    <!-- -----------------------------------------------------Core Features--------------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------------------Core Features--------------------------------------------------------------------------- -->
 
     <section>
         <div class="container-fluid m-60 p-10">
@@ -1009,16 +1026,18 @@
     <hr>
     <section>
         <div class="container">
-            <div class="w-1  p-10">
-                <div class="p-20 d-flex  justify-between">
-                    <div class="">
-                        <p class="p-left-20">© 2024 TemplatesJungle. All rights reserved.</p>
-                    </div>
-                    <div class=" ">
-                        <p class="">Free HTML Template by: <b>TemplatesJungle</b> Distributed by: <b>ThemeWagon</b></p>
-                    </div>
+            <div class="row">
+            <div class="w-1 w-md-2 ">
+                <div class="w-1  p-10">
+                    <p class="p-left-20 p-10">© 2024 TemplatesJungle. All rights reserved.</p>
                 </div>
+
+        </div>
+        <div class="w-1 w-md-2 ">
+            <div class="w-1  p-10">
+                <p class="p-10">Free HTML Template by: <b>TemplatesJungle</b> Distributed by: <b>ThemeWagon</b></p>
             </div>
+        </div>
         </div>
     </section>
 
@@ -1041,7 +1060,7 @@
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                         slidesToScroll: 2,
                         infinite: true,
                         dots: true

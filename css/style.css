@@ -8,6 +8,7 @@
 
 .dropdown{
     position: relative;
+    /* border:1px solid red; */
    
 }
 .dropdown-menu{
@@ -16,8 +17,9 @@
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    top: 30px;
+    top: 27px;
     display: none;
+    scroll-behavior: smooth;
 }
 .dropdown-menu li{
     padding: 10px 10px;
@@ -313,6 +315,10 @@ ul{
 .w-20{
     width:40px;
 }
+.w-60{
+    
+}
+
 /* ------------------color class ------------------------*/
 .color-red{
     color:rgb(236 108 90);
