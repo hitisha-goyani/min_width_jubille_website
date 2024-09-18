@@ -90,8 +90,8 @@
     .d-lg-nowrap{
         flex-wrap: nowrap;
     }
-    .d-lg-justify{
-        justify-content: start !important;
+    .d-lg-end{
+        justify-content: end !important;
     }
 
 
