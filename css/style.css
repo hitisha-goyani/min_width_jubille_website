@@ -31,16 +31,16 @@
 
 }
 
-.dropdown:hover .dropdown-menu{
+/* /* .dropdown:hover .dropdown-menu{
     display: block !important;
     
-}   
+}    */
 
 
 
 .dropdown-menu li:hover{
     background-color: rgb(242, 239, 239);
-} 
+}  
 
 /*---------------------------                                                                                                                           ------------container classes start--------------------------------- */
 .container{
