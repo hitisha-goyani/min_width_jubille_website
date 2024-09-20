@@ -45,7 +45,7 @@
 /*---------------------------                                                                                                                           ------------container classes start--------------------------------- */
 .container{
     /* border: 1px solid blue; */
-    max-width:1320px;
+    max-width:540px;
     margin: auto;
 }
 .container-fluid{
@@ -249,8 +249,12 @@ ul{
 .p-top-50{
     padding-top: 50px;
 }
+
 .p-top-20{
     padding-top: 50px;
+}
+.p-top-40{
+    padding-top: 40px;
 }
 .p-top-70{
     padding-top: 70px;
@@ -269,6 +273,9 @@ ul{
 }
 .p-bottom-100{
     padding-bottom: 100px;
+}
+.p-bottom-40{
+    padding-bottom: 40px;
 }
 
 
