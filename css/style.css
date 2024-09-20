@@ -45,7 +45,7 @@
 /*---------------------------                                                                                                                           ------------container classes start--------------------------------- */
 .container{
     /* border: 1px solid blue; */
-    max-width:540px;
+    /* max-width:1320px;  */
     margin: auto;
 }
 .container-fluid{
@@ -202,11 +202,17 @@ ul{
 .p-80{
     padding: 80px;
 }
+.p-90{
+    padding: 90px;
+}
 .p-right-20{
     padding-right: 20px;
 }
 .p-right-5{
     padding-right: 5px;
+}
+.p-right-30{
+    padding-right: 30px;
 }
 .p-left-10-10{
     padding-left: 10px;
@@ -223,6 +229,9 @@ ul{
 }
 .p-left-50{
     padding-left: 50px;
+}
+.p-left-60{
+    padding-left: 60px;
 }
 .p-left-25{
     padding-left: 25px;
@@ -259,6 +268,9 @@ ul{
 .p-top-70{
     padding-top: 70px;
 }
+.p-top-80{
+    padding-top: 80px;
+}
 .p-top-10{
     padding-top: 10px;
 }
@@ -276,6 +288,9 @@ ul{
 }
 .p-bottom-40{
     padding-bottom: 40px;
+}
+.p-bottom-80{
+    padding-bottom: 80px;
 }
 
 

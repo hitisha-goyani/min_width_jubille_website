@@ -39,6 +39,9 @@
 .border{
     border-bottom: 2px solid gainsboro;
 }
+.f-xs{
+    font-size: 32px;
+}
 
 /* 
 #side-nav{
@@ -84,7 +87,7 @@
         width:20%;
     }
     .container{
-        max-width:1320px !important;
+        max-width:540px;
     }
       
     
@@ -105,6 +108,11 @@
     .w-md-5{
         width:20%;
     }
+    .container{
+        max-width: 720px;
+
+    }
+
 
  
    
@@ -149,6 +157,12 @@
     .justify-lg-end{
         justify-content: end;
     }
+    .container{
+        max-width:960px
+    }
+    .f-lg{
+        font-size:45px;
+    }
     
 
 
@@ -190,6 +204,9 @@
         position: relative;
         width:500px;
     } */
+     .container{
+        max-width:1140px;
+     }
 }
 
 
@@ -212,7 +229,9 @@
     .t-box{
         transform: translateY(-124px);
     }
-   
+   .container{
+    max-width: 1320px;
+   }
 }
 @media(max-width:992px){
     /* #side-nav{
