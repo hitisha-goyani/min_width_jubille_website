@@ -42,6 +42,9 @@
 .f-xs{
     font-size: 32px;
 }
+.show{
+    display:flex;
+}
 
 /* 
 #side-nav{

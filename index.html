@@ -37,7 +37,11 @@
                 <div class="hide-nav">
                 <div class=" d-lg-flex " id="side-nav">
                     <div class="w-1 btn-hide">
-                        <button class="btn-close b-none bg-white font-20"><i class="ri-close-large-line color-gray"></i></button>
+                        <button class="btn-close b-none bg-white font-20">
+                            <i class="ri-close-large-line color-gray"></i></button>
+                    </div>
+                    <div class="w-1 btn-hide">
+                        <img class="p-20" src="imgs/logo.png">
                     </div>
                     
                     <ul class="d-flex gap p-20 f-weight-600 ">
@@ -1096,19 +1100,19 @@
        $("#side-nav").css({"width":"0px", "padding":"0px"});
    })
    $(".d-1").click(function(){
-        $(".m-1").fadeToggle();
+        $(".m-1").toggle();
     })
     $(".d-2").click(function(){
-        $(".m-2").fadeToggle();
+        $(".m-2").toggle();
     })
     $(".d-3").click(function(){
-        $(".m-3").fadeToggle();
+        $(".m-3").toggle();
     })
     $(".d-4").click(function(){
-        $(".m-4").fadeToggle();
+        $(".m-4").toggle();
     })
     $(".d-5").click(function(){
-        $(".m-5").fadeToggle();
+        $(".m-5").toggle();
     })
 </script>
 
