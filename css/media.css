@@ -273,9 +273,16 @@
     
     #side-nav ul{
         flex-direction: column;
-         height: 400px;
+         /* height: 400px; */
+         gap:20px;
+         background-color: white;
      
     } 
+    .z-index{
+        z-index:1000;
+        top:30%;
+        left:40%;
+    }
     
     
 }
